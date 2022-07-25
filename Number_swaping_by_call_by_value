@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int swap(int *a,int *b)
+{
+	int temp=*a;
+	*a=*b;
+	*b=temp;
+	return 0;
+	
+}
+int main(int *a,int *b)
+{
+	int x=200,y=600;
+	cout<<"the value of x before swap::"<<x<<endl;
+	cout<<"the value of y before swap::"<<y<<endl;
+	
+	swap(&x,&y);
+	cout<<"the value of x after swap::"<<x <<endl;
+	cout<<"the value of y after swap ::"<<y<<endl;
+	return 0;
+}
