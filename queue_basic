@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    queue<string> s; // fisrt in first out
+    s.push("abc");
+    s.push("hey");
+    s.push("hello");
+    s.push("waah 10");
+
+    while(!s.empty())
+    {
+        cout<<s.front()<<endl;
+        s.pop();
+    }
+}
