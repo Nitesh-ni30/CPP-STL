@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    pair<int,string> p1;
+    cin>>p1.first;
+    cout<<p1.first;
+}
